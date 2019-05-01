@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  	 <title>Techhut</title>
+  
+  <style>
+  	.jumbotron{
+  		background-image:url(agripina.jpg);
+  		text-align:center;
+  		margin-top:10px;
+
+  	}
+
+  	#email{
+  		width:300px;
+  	}
+
+  	#appSummary{
+  		
+  		margin-top:50px;
+  		margin-bottom:50px;
+  		text-align: center;
+  	}
+
+  	.card-img-top{
+  		width:100%;
+  	}
+
+  	#appStoreIcon{
+  		width:300px;
+
+  		
+  	}
+
+  	footer{
+  		background-color:limegreen;
+  		padding-top:150px;
+  		margin-top:50px;
+  		text-align:center;
+  		padding-bottom:150px;
+  	}
+
+  	button{
+  		text-align: center;
+  	}
+
+
+
+
+
+
+
+  	body{
+  		position:relative;
+  	}
+  	
+  </style>
+</head>
+  <body>
+  		<!--navbar container-->
+  		<nav class="navbar navbar-expand-lg navbar-fixed-top navbar-light bg-faded" id="navbar">
+  			<!--navbar company name-->
+  			<a class="navbar-brand" href="#">Techhut</a>
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="	#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+   			 <span class="navbar-toggler-icon"></span>
+  			</button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+      	<!--home-->
+        <a class="nav-link" href="#jumbotron">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <!--about-->
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li class="nav-item">
+      <!--download-->
+     	<a class="nav-link" href="#footer">Download the App</a>
+    </ul>
+</div>
+	<!--email,password,login btn-->
+    <form class="form-inline pull-xs-right">
+      	<input class="form-control mr-sm-2" type="email" placeholder="Email" aria-label="name@example.com">
+      	<input class="form-control mr-sm-2" type="password" placeholder="Password" aria-label="password">
+     	 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+    </form>
+  
+</nav>
+			<!--jumbotron container-->
+			<div class="jumbotron" id="jumbotron">
+  				<h1 class="display-3">Together We Grow</h1>
+  					<p class="lead">We strive at helping the farmers gain more knowledge in pre-farming, during farming and post-farming in order for them to make smarter decisions.</p>
+  					<hr class="my-y-2">
+  					<p>Join our adventurous network</p>
+  					<form class="form-inline">
+  						<div class="form-group">
+  							<div class="input-group">
+  								<button type="submit" class="btn btn-primary">Sign up</button>
+  						</div>
+  					</div>
+  					
+  					
+  				</form>
+  			</div>
+  					
+			
+  			<!--suumary container-->
+			<div class="container">
+				<div class="row" id="appSummary">
+					
+						<h1>Why Techhut can help you</h1>
+					</div>
+				</div>
+				<!--card container-->
+			<div class="container" id="about">
+				<div class="car-deck-wrapper">
+					<div class="card-deck">
+					
+						<div class="card" >
+  							<img  class="card-img-top" src="datafrank.jpg" alt="Card image cap">
+  								<div class="card-block">
+    								<h4 class="card-title">Data to help you</h4>
+    									<p class="card-text">This set of data collected can help you make smart decisions.</p>
+    								<!--<a href="#" class="btn btn-primary">Check it out</a-->
+    						</div>
+  						</div>
+					
+				
+			
+					
+						<div class="card" >
+  							<img  class="card-img-top" src="rainkyle.jpg" alt="card image cap">
+  								<div class="card-block">
+    								<h4 class="card-title">Rain time</h4>
+    									<p class="card-text">See the appropriate time to use rainfall.</p>
+    								
+    							</div>
+    						</div>
+    					
+    					
+					
+						<div class="card" >
+  							<img  class="card-img-top" src="soiltatiana.jpg" alt="card image cap">
+  								<div class="card-block">
+    								<h4 class="card-title">Soil types</h4>
+    									<p class="card-text">Check the composition of your soil.</p>
+    							
+    							</div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+
+
+					
+			
+    		<!--footer div-->
+			<footer role="content-info">
+				<div class="row">
+				<h2>Download the app!</h2>
+					
+				<p><a href=""><img id="appStoreIcon" src="android.png"></a></p>
+			</div>
+		</footer>
+	
+
+
+
+		
+  	
+  	
+ 
+
+    
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js">
+    </script>
+
+    <!--bootsrap-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<!-- saved from url=(0041)http://localhost/bootstrap/bootstrap.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Required meta tags -->
     
-    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
 
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./bootstrap_files/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
   	 <title>Techhut</title>
   
   <style>
@@ -35,7 +36,12 @@
 
   	.card-img-top{
   		width:100%;
+
   	}
+
+    .card-height{
+      height:50%;
+    }
 
   	#appStoreIcon{
   		width:300px;
@@ -44,26 +50,59 @@
   	}
 
   	footer{
-  		background-color:limegreen;
+  		background-image:url(agripina.jpg);
   		padding-top:150px;
   		margin-top:50px;
   		text-align:center;
   		padding-bottom:150px;
   	}
 
-  	button{
+  	.input-group{
   		text-align: center;
   	}
 
+    .card-title{
+      text-align:center;
+    }
 
-
-
-
-
-
-  	body{
+    body{
   		position:relative;
   	}
+
+    .baton{
+      text-align:center;
+    }
+
+    .footer-logo{
+      text-align:left;
+      margin-bottom:40px;
+      
+    }
+
+    .nav-title{
+      font-size:30px;
+    }
+
+    .navs{
+      width:20px;
+      margin-left:25px;
+      font-size:25px;
+    }
+
+    .nav{
+      margin-left:200px;
+      padding:10px;
+       width:20px;
+      height:10px;
+      padding-right:15px;
+      word-spacing:40px;
+      font-size:50px;
+
+
+
+     }
+
+  
   	
   </style>
 </head>
@@ -71,7 +110,7 @@
   		<!--navbar container-->
   		<nav class="navbar navbar-expand-lg navbar-fixed-top navbar-light bg-faded" id="navbar">
   			<!--navbar company name-->
-  			<a class="navbar-brand" href="#">Techhut</a>
+  			<a class="navbar-brand" href="http://localhost/bootstrap/bootstrap.html#">Techhut</a>
   			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="	#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
    			 <span class="navbar-toggler-icon"></span>
   			</button>
@@ -80,14 +119,14 @@
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
       	<!--home-->
-        <a class="nav-link" href="#jumbotron">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="http://localhost/bootstrap/bootstrap.html#jumbotron">Home <span class="sr-only">(current)</span></a>
       </li>
       <!--about-->
       <li class="nav-item">
-        <a class="nav-link" href="#about">About</a>
-      </li class="nav-item">
+        <a class="nav-link" href="http://localhost/bootstrap/bootstrap.html#about">About</a>
+      </li>
       <!--download-->
-     	<a class="nav-link" href="#footer">Download the App</a>
+     	<a class="nav-link" href="http://localhost/bootstrap/bootstrap.html#footer">Download the App</a>
     </ul>
 </div>
 	<!--email,password,login btn-->
@@ -100,14 +139,18 @@
 </nav>
 			<!--jumbotron container-->
 			<div class="jumbotron" id="jumbotron">
-  				<h1 class="display-3">Together We Grow</h1>
-  					<p class="lead">We strive at helping the farmers gain more knowledge in pre-farming, during farming and post-farming in order for them to make smarter decisions.</p>
+  				<h1 class="display-3">
+            <strong style="color:#0B6623;">Smart Farming</strong></h1>
+          <h1>for you</h1>
+  					<p class="lead" style="
+    color: #ffffff;
+">We are here to help farmers gain more knowledge in pre-farming, during farming and post-farming in order for them to make smarter decisions.</p>
   					<hr class="my-y-2">
-  					<p>Join our adventurous network</p>
+  					<button type="submit" class="btn btn-success">Join Us On Our Adventurous Journey Now!</button>
   					<form class="form-inline">
   						<div class="form-group">
   							<div class="input-group">
-  								<button type="submit" class="btn btn-primary">Sign up</button>
+  							
   						</div>
   					</div>
   					
@@ -120,7 +163,7 @@
 			<div class="container">
 				<div class="row" id="appSummary">
 					
-						<h1>Why Techhut can help you</h1>
+						<h1>Equipping Farmers with Game-Changing information </h1>
 					</div>
 				</div>
 				<!--card container-->
@@ -128,34 +171,36 @@
 				<div class="car-deck-wrapper">
 					<div class="card-deck">
 					
-						<div class="card" >
-  							<img  class="card-img-top" src="datafrank.jpg" alt="Card image cap">
+						<div class="card">
+  							<img class="card-img-top" src="./bootstrap_files/datafrank.jpg" alt="Card image cap">
   								<div class="card-block">
-    								<h4 class="card-title">Data to help you</h4>
-    									<p class="card-text">This set of data collected can help you make smart decisions.</p>
-    								<!--<a href="#" class="btn btn-primary">Check it out</a-->
+    								<h4 class="card-title">Let our Data help you</h4>
+    									<p class="card-text">Gain access to data about crops you should plant, market prices and so much more to make smart decisions.</p>
+    								<a href="https://www.basicknowledge101.com/subjects/farming.html" class="btn btn-success" class="baton">You have to look at this!</a>
     						</div>
   						</div>
 					
 				
 			
 					
-						<div class="card" >
-  							<img  class="card-img-top" src="rainkyle.jpg" alt="card image cap">
+						<div class="card">
+  							<img class="card-img-top" class="card-height" src="./bootstrap_files/rainkyle.jpg" alt="card image cap">
   								<div class="card-block">
-    								<h4 class="card-title">Rain time</h4>
-    									<p class="card-text">See the appropriate time to use rainfall.</p>
+    								<h4 class="card-title">Scarce commodity</h4>
+    									<p class="card-text">Africa has limited water resources but where there is a way there is a will.We are the way.</p>
+                          <a href="www.meteo.go.ke/" class="btn btn-success" class="baton">You have to look at this!</a>
     								
     							</div>
     						</div>
     					
     					
 					
-						<div class="card" >
-  							<img  class="card-img-top" src="soiltatiana.jpg" alt="card image cap">
+						<div class="card">
+  							<img class="card-img-top" src="./bootstrap_files/soiltatiana.jpg" alt="card image cap">
   								<div class="card-block">
-    								<h4 class="card-title">Soil types</h4>
-    									<p class="card-text">Check the composition of your soil.</p>
+    								<h4 class="card-title">Soil Composition?</h4>
+    									<p class="card-text">Different areas in the country have different soil compositions, join us and discover the most suitable crop in your area.</p>
+                          <a href="https://www.agverra.com/blog/soil-types/" class="btn btn-success" class="baton">You have to look at this!</a>
     							
     							</div>
     						</div>
@@ -167,28 +212,58 @@
 					
 			
     		<!--footer div-->
-			<footer role="content-info">
-				<div class="row">
-				<h2>Download the app!</h2>
-					
-				<p><a href=""><img id="appStoreIcon" src="android.png"></a></p>
-			</div>
-		</footer>
-	
+			<footer role="content-info" class="footer footer-default">
+				<div class="container">
+          <nav class="row">
 
+            <div class="col-xs-12 col-md-2">
+              <div class="footer-logo">
+                <a href=""><img src="techuts.png" alt="techut"></a>
+              </div>
+            </div>
 
+            <div class="col-xs-6 col-sm-4 col-md-2">
+              <h3 class="nav-title">Company</h3>
+              <ul class="navs">
+                <li>
+                  <a href="" id="nav-link-about" data-ga-category="menu" data-ga-action="about">About</a>
+                </li>
 
-		
-  	
-  	
- 
+                <li>
+                  <a href="" id="nav-link-contact" data-ga-category="menu" data-ga-action="contact">Contact</a>
+                </li>
 
+                <li>
+                  <a href="" id="nav-link-app" data-ga-category="menu" data-ga-action="app">App</a>
+                </li>
+              </ul>
+            </div>
+
+              <div class="col-xs-12 col-md-4 col-social">
+                <ul class="nav">
+                  <li>
+                    <a href="http://instagram.com"><i class="fab fa-instagram"></i></a>
+                  </li>
+
+                  <li>
+                    <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                  </li>
+
+                  <li>
+                    <a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </footer>
     
     <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js">
+    <script src="./bootstrap_files/jquery.min.js.download">
     </script>
 
     <!--bootsrap-->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
-</html>
+    <script src="./bootstrap_files/bootstrap.min.js.download" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+
+</body></html>

@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--fontawesome-->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <title>About Us</title>
+    <style>
+       #navbar{
+        background-color:#0B6623;
+      }
+
+      #container{
+        margin-top:20px;
+        margin-left:30px;
+        height:100px;
+      }
+
+      #list{
+        margin-top:50px;
+        margin-left:200px;
+        margin-bottom:50px;
+        font-size:20px;
+      }
+
+      #message{
+        margin-top:350px;
+        text-align:center;
+      }
+
+      #sdgs-header{
+        margin-left:60px;
+      }
+
+      #sdgs{
+        margin-top:40px;
+        margin-left:20px;
+        margin-bottom:40px;
+      }
+
+      .mr-3{
+        width:150px;
+      }
+
+      .terms{
+          margin-top:45px;
+          margin-left:80px;
+       }
+
+      .footer-logo{
+      text-align:left;
+      margin-bottom:40px;
+      background:none;
+      }
+
+      .nav-title{
+      font-size:30px;
+       }
+
+      .navs{
+      width:20px;
+      margin-left:25px;
+      font-size:25px;
+      }
+
+      .nav{
+      margin-left:200px;
+      padding:10px;
+       width:20px;
+      height:10px;
+      padding-right:15px;
+      word-spacing:40px;
+      font-size:50px;
+     }
+
+      footer{
+      background-image:url(agripina.jpg);
+      padding-top:20px;
+      margin-top:50px;
+      text-align:center;
+      padding-bottom:15px;
+      }
+
+      body{
+        position:relative;
+        font-family:;
+       }
+
+
+    </style>
+  </head>
+  <body>
+    <!--navbar-->
+    <div id="nav">
+      <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-light bg-faded" id="navbar">
+        <!--navbar company name-->
+        <a class="navbar-brand" href="http://localhost/bootstrap/bootstrap.html#">Techut</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=" #navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+        </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <!--home-->
+        <a class="nav-link" href="http://localhost/bootstrap/bootstrap.html#jumbotron">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <!--about-->
+      <li class="nav-item">
+        <a class="nav-link" href="http://localhost/bootstrap/about1.html">About</a>
+      </li>
+      <!--rates-->
+      <a class="nav-link" href="http://localhost/bootstrap/rates.html">Rates</a>
+      <!--contacts-->
+      <li class="nav-item">
+        <a class="nav-link" href="http://localhost/bootstrap/contacts.html">Contact us</a>
+      </li>
+    </ul>
+</div>
+</div>
+<!--end of navbar-->
+
+<!--card-->
+<div id="container">
+     <div class="card mb-3" style="max-width: 1200px; ">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="techuts.png" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Techut origin story</h5>
+        <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+        
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!--end of card-->
+
+<div id="message">
+  <h1>How can Techut help you?</h1>
+</div>
+<!--list-->
+<div id="list">
+  <ul class="list-group list-group-horizontal-md">
+    <li class="list-group-item list-group-item-success">Water Usage</li>
+    <li class="list-group-item list-group-item-success">Soil Analysis</li>
+    <li class="list-group-item list-group-item-success">Climatic Conditions</li>
+    <li class="list-group-item list-group-item-success">Crops Research</li>
+    <li class="list-group-item list-group-item-success">Market Commodity Prices</li>
+</ul>
+</div>
+<!--end of list-->
+<div id="sdgs-header">
+  <h1>Techut and the Sustainable Development Goals</h1>
+  </div>
+<!--media list-->
+<div id="sdgs">
+  <ul class="list-unstyled">
+  <li class="media">
+    <img src="no-poverty.png" class="mr-3" alt="...">
+    <div class="media-body">
+      <h5 class="mt-0 mb-1">No Poverty.</h5>
+      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+    </div>
+  </li>
+  <li class="media my-4">
+    <img src="zero-hunger.png" class="mr-3" alt="...">
+    <div class="media-body">
+      <h5 class="mt-0 mb-1">Zero Hunger.</h5>
+      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+    </div>
+  </li>
+
+  <li class="media">
+    <img src="reduced-inequalities.png" class="mr-3" alt="...">
+    <div class="media-body">
+      <h5 class="mt-0 mb-1">Reduced Inequalities.</h5>
+      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+    </div>
+  </li>
+
+  <li class="media">
+    <img src="decent-work.png" class="mr-3" alt="...">
+    <div class="media-body">
+      <h5 class="mt-0 mb-1">Decent Work and Economic Growth.</h5>
+      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+    </div>
+  </li>
+</ul>
+ </div>
+<!--end of media list-->
+<!--footer-->
+    <footer role="content-info" class="footer footer-default">
+        <div class="container">
+          <nav class="row">
+
+            <div class="col-xs-12 col-md-2">
+              <div class="footer-logo">
+                <a href=""><img src="techuts.png" alt="techut"></a>
+              </div>
+            </div>
+
+            <div class="terms">
+              <h3>Terms And Conditions</h3>
+            </div>
+
+              <div class="col-xs-12 col-md-4 col-social">
+                <ul class="nav">
+                  <li>
+                    <a href="http://instagram.com"><i class="fab fa-instagram"></i></a>
+                  </li>
+
+                  <li>
+                    <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                  </li>
+
+                  <li>
+                    <a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+          </footer>
+<!--end of footer-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

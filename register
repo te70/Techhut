@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <title>Registration</title>
+    <style>
+      #container{
+        margin-top:20px;
+        margin-left:500px;
+       margin-bottom:100px;
+        height:400px;
+
+      }
+      .header{
+        text-align:center;
+        margin-top:40px;
+      }
+
+      .form{
+        text-align:center;
+        padding:20px;
+      }
+
+       .terms{
+          margin-top:45px;
+          margin-left:80px;
+       }
+
+        .nav-title{
+      font-size:30px;
+       }
+
+      .navs{
+      width:20px;
+      margin-left:25px;
+      font-size:25px;
+      }
+
+      .nav{
+      margin-left:200px;
+      width:20px;
+      font-size:50px;
+      display:flex;
+     }
+
+      footer{
+      background-image:url(agripina.jpg);
+      padding-top:20px;
+      margin-top:30px;
+      text-align:center;
+      padding-bottom:15px;
+      }
+
+     
+
+      body{
+        position:relative;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div id="container">
+    <div class="card border-success mb-3" style="max-width:20rem;">
+    <div class="header">
+     <img src="techuts.png" alt="" class="image"/>
+     <p>Sign up to Join us </p>
+    </div>
+
+    <div class="form">
+      <form>
+        <input type="email" placeholder="Email">
+        <input type="first-name" placeholder="First Name">
+        <input type="text" placeholder="Last Name">
+        <input type="text" placeholder="Mobile Number">
+        <input type="text" placeholder="Region">
+        
+      </form>
+      <button type="button" class="btn btn-success">Sign Up</button>
+
+    </div>
+</div>
+</div>
+
+ <footer role="content-info" class="footer footer-default">
+        <div class="container">
+          <nav class="row">
+            <div class="terms">
+              <h3>Terms And Conditions</h3>
+            </div>
+
+              <div class="col-xs-12 col-md-4 col-social">
+                <ul class="nav">
+                  <li>
+                    <a href="http://instagram.com"><i class="fab fa-instagram"></i></a>
+                  </li>
+
+                  <li>
+                    <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                  </li>
+
+                  <li>
+                    <a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+          </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
